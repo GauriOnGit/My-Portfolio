@@ -46,9 +46,12 @@ h8 {
 
 .footer li {
     display: inline-block;
-    background-color: #6A92B7;
+    
 }
 
+footer {
+    background-color: #6A92B7;
+}
 .image-container {
     position: relative;
     display: inline-block;
