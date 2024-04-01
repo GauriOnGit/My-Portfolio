@@ -23,7 +23,7 @@ h1 {
     color: #F5F5F5;
     font-size: 40px;
     font-style: extra bold;
-    stroke: 2px #747470;
+    border: 4px #747470;
 }
 
 h3 {
