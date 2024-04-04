@@ -12,18 +12,43 @@ nav li {
 
 nav a {
     color: #6A92B7;
-    font-family: 'Lato', 'SeoulNamsan';
-    font-size: 16px;
-    font-style: extra bold;
-    padding: 60px;
+    font-family:'Lato';
+    font-size: 18px;
+    font-style: bold;
+    padding: 50px;
+}
+
+@font-face {
+    font-family: "SeoulNamsan";         
+    src: url("fonts/SeoulNamsan.ttf");
 }
 
 
+body {
+    font-family: "SeoulNamsan", 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    border-color: 2px solid #000;
+}
+
 h1 {
     color: #F5F5F5;
-    font-size: 40px;
-    font-style: extra bold;
-    border-color: 10px #686565;
+    font-style: normal;
+    border-color: solid #686565;
+    font-size: 64px;
+    font-style: bold;
+    border-color: #686565;
+    border-width: 2px;
+    border: 2px #686565;
+}
+
+h2 {
+    color: #F5F5F5;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 55px;
+    border-color: solid #686565;
+
 }
 
 h3 {
@@ -46,12 +71,13 @@ h8 {
 
 .footer li {
     display: inline-block;
-    
+
 }
 
 footer {
     background-color: #6A92B7;
 }
+
 .image-container {
     position: relative;
     display: inline-block;
@@ -74,8 +100,17 @@ footer {
 
 .right-text {
     align-self: flex-start;
+    text-align: end;
+    padding-right: 50px;
 }
 
 .left-text {
-    align-self: flex-end;
+    padding-top: 150px;
+}
+
+
+.landingPageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
