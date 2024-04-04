@@ -105,7 +105,7 @@ h8 {
     color: #686565;
     font-size: 12px;
     font-family: 'Lato';
-    font-style: extra bold;
+    font-style: bold;
 }
 
 h9 {
@@ -115,6 +115,15 @@ h9 {
     font-style: bold;
     font-size: 24px;
     border-color: solid #686565;
+
+}
+
+h10 {
+    color: #6A92B7;
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
 
 }
 
@@ -167,6 +176,41 @@ h9 {
 
 .FeaturedProjects {
     background-color: #F5F5F5;
+}
+
+.navigation {
+    display:flex;
+    padding-top:5px;
+}
+.logo {
+    width:50%
+}
+
+
+.navmenuitems {
+    display:flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.PORTFOLIO {
+    width: 25%;
+    padding-left: 10px;
+}
+
+.ABOUT {
+    width: 25%;
+    padding-left: 10px;
+}
+
+.RESUME {
+    width: 25%;
+    padding-left: 10px;
+}
+
+.CONTACT {
+    width: 25%;
+    padding-left: 10px;
 }
 
 .flexcontainer1 {
