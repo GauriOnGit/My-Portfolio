@@ -134,6 +134,27 @@
         </div>
     </section>
 
+    <script>
+        
+        const menuItems = document.querySelectorAll('.navmenuitems div');
+
+     
+        menuItems.forEach(item => {
+            item.addEventListener('mouseenter', () => {
+            
+                item.querySelector('h10').style.color = '#747470';
+                item.querySelector('h10').style.fontSize = '1.3em';
+            });
+
+            item.addEventListener('mouseleave', () => {
+            
+                item.querySelector('h10').style.color = '';
+                item.querySelector('h10').style.fontSize = '';
+            });
+        });
+    </script>
+
+
 </body>
 
 
